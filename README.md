@@ -1,12 +1,12 @@
 # PrepCourse | [CODELEX](https://codelex.io)
 
-## Work Station Setup
+# Work Station Setup
 
-### Visual Studio Code
+## Visual Studio Code
 
 We are going to use a text editor, which is pretty popular amongst developers. Download & install from [code.visualstudio.com](https://code.visualstudio.com), after the installation make sure that everything works fine.
 
-### node & npm
+## node & npm
 
 > [Node.js®](https://nodejs.org) is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
@@ -14,7 +14,12 @@ To execute code written by you, we are going to use **node**, [download & instal
 
 ![install node](./assets/node-install.png)
 
-### Git
+### Verify
+
+ - check node version: `node -v`
+ - check npm version: `npm -v`
+
+## Git
 
 We will use Git as our Version Control System. It's like Dropbox for developers. But much better!
 
@@ -30,10 +35,6 @@ What is **Git**? Git is one of many Version Control Systems available to use, an
 
 What is **Github**? Github is a very popular site where you can publish and share your Git repositories, share and collaborate with other people.
 
-### Verify that you are ready
-
-It is very easy to check if everything was installed correctly, just open terminal and type in some commands:
+### Verify
 
  - check Git version: `git --version`
- - check node version: `node -v`
- - check npm version: `npm -v`
