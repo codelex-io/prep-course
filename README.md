@@ -6,9 +6,13 @@
 
 We are going to use a text editor, which is pretty popular amongst developers. Download & install from [code.visualstudio.com](https://code.visualstudio.com), after the installation make sure that everything works fine.
 
-### NodeJS & npm
+### node & npm
 
+> [Node.js®](https://nodejs.org) is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
+To execute code written by you, we are going to use **node**, [download & install *Current* version](https://nodejs.org/en/download)
+
+![install node](./assets/node-install.png)
 
 ### Git
 
@@ -31,5 +35,5 @@ What is **Github**? Github is a very popular site where you can publish and shar
 It is very easy to check if everything was installed correctly, just open terminal and type in some commands:
 
  - check Git version: `git --version`
- - check NodeJs version: `node -v`
+ - check node version: `node -v`
  - check npm version: `npm -v`
