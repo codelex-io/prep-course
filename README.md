@@ -14,7 +14,7 @@ We assume that you have already did some coding [@codecademy.com](https://www.co
  - [get started with npm @youtube.com/npm](https://www.youtube.com/watch?v=x03fjb2VlGY)
  - also there is a longer TypeScript tutorial [Intro to TypeScript @scrimba.com](https://scrimba.com/g/gintrototypescript)
 
-Create accounts, which we may be using these during the course:
+Create accounts, which we may be using during the course:
 
  - [@github.com](http://github.com)
  - [@codingame.com](http://codingame.com), choose **CODELEX** as your school
