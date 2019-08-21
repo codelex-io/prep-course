@@ -18,11 +18,11 @@ We are going to use a code editor, which is pretty popular amongst developers. D
 
 > [Node.js®](https://nodejs.org) is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
 
-To execute code written by you, we are going to use **node**, [download & install *Current* version](https://nodejs.org/en/download)
+To execute code written by you, we are going to use **node**, [download & install **Current** version](https://nodejs.org/en/download)
 
 ![install node](./assets/node-install.png)
 
-Detailed instructions (don't pay attention to versions, these video may be outdated):
+Detailed instructions (don't pay attention to versions, these videos may be outdated):
 
  - [Windows 7 / 8](https://www.youtube.com/watch?v=YL0Yk5GBxUE) & [Windows 10](https://www.youtube.com/watch?v=gHuIKptS0Qg)
  - [Mac / Unix](https://www.youtube.com/watch?v=wREima9e6vk)
