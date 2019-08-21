@@ -1,40 +1,31 @@
 # PrepCourse | [CODELEX](https://codelex.io)
 
-# Work Station Setup
+## Work Station Setup
 
-## Visual Studio Code
+Carefully execute all of the steps mentioned in [Work Station Setup](./work-station-setup.md) guide. Make sure that you have everything installed and verified.
 
-We are going to use a text editor, which is pretty popular amongst developers. Download & install from [code.visualstudio.com](https://code.visualstudio.com), after the installation make sure that everything works fine.
+## Prerequisites 
 
-## node & npm
+We assume that you have already did some coding [@codecademy.com](https://www.codecademy.com), but to better understand what we are going to do - take a look at these free resources:
 
-> [Node.js®](https://nodejs.org) is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+ - [TypeScript in 5 minutes @typescriptlang.org](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+ - [TypeScript fundamentals @udemy.com](https://www.udemy.com/course/typescript-fundamentals)
+ - [TypeScript handbook @typescriptlang.org](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+ - [get started with npm @youtube.com/npm](https://www.youtube.com/watch?v=x03fjb2VlGY)
+ - also there is a longer TypeScript tutorial [Intro to TypeScript @scrimba.com](https://scrimba.com/g/gintrototypescript)
 
-To execute code written by you, we are going to use **node**, [download & install *Current* version](https://nodejs.org/en/download)
+Create accounts, which we may be using these during the course:
 
-![install node](./assets/node-install.png)
+ - [@github.com](http://github.com)
+ - [@codingame.com](http://codingame.com), choose **CODELEX** as your school
+ 
+Everything we will need is in this repository (*repository* is like a project in Git), but to get it on your computer you must clone (make a local copy) it. To do that copy the link of this repository:
 
-### Verify
+![Repository URL](./assets/repository-url.gif)
 
- - check node version: `node -v`
- - check npm version: `npm -v`
+Steps are as follows:
 
-## Git
-
-We will use Git as our Version Control System. It's like Dropbox for developers. But much better!
-
-Follow [this guide from Github](https://help.github.com/en/articles/set-up-git#setting-up-git) to setup Git.
-
-> What is "version control"? Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
-> 
-> It allows you to revert files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. In addition, you get all this for very little overhead.
->
-> Extract from [Git Pro Book](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-
-What is **Git**? Git is one of many Version Control Systems available to use, and by far [the most popular](https://insights.stackoverflow.com/survey/2015#tech-sourcecontrol).
-
-What is **Github**? Github is a very popular site where you can publish and share your Git repositories, share and collaborate with other people.
-
-### Verify
-
- - check Git version: `git --version`
+ - open Command Line
+ - navigate to the folder you would like to have this project, you can use command `cd` to change current directory
+ - clone the project: `git clone https://github.com/codelex-io/prep-course.git`
+ - open repository as folder in Visual Studio Code
