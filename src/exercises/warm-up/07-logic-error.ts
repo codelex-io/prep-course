@@ -1,9 +1,8 @@
 export {};
 
-function multiply(a, b, c) {
-  a * b * c;
-  return;
+function trim(word) {
+  return "word".trim();
 }
 
-const result = multiply(1, 3, 4);
-console.log(result); // Expected result: 12
+const result = trim("CODELEX  ");
+console.log(result); // Expected output: "CODELEX"

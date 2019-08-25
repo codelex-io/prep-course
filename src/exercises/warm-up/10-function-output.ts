@@ -1,8 +1,8 @@
 export {};
 
-function concatenate(firstWord, secondWord, thirdWord) {
-  // Write the body of this function to concatenate three words together with space between them
+function s(w1, w2) {
+  return w1.concat(' ').concat(w2);
 }
 
-const result = concatenate("Hello", "from", "CODELEX");
-console.log(result); // Expected result: "Hello from CODELEX"
+const result = undefined; // concatenate two strings - 'hello', 'world', using the function above
+console.log(result); // Expected output: "hello world"
