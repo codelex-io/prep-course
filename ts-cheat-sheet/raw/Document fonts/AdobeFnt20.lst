@@ -1,0 +1,119 @@
+%!Adobe-FontList 1.20
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:G:\DropBox\Dropbox\indd work\Sandris Artemjevs\Codelex\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1361517380
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Bold
+FamilyName:Rubik
+StyleName:Bold
+FullName:Rubik Bold
+MenuName:Rubik
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:G:\DropBox\Dropbox\indd work\Sandris Artemjevs\Codelex\Document fonts\Rubik-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:136068
+FileModTime:1437508800
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Light
+FamilyName:Rubik
+StyleName:Light
+FullName:Rubik Light
+MenuName:Rubik Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:G:\DropBox\Dropbox\indd work\Sandris Artemjevs\Codelex\Document fonts\Rubik-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:130688
+FileModTime:1437508800
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik Light
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Medium
+FamilyName:Rubik
+StyleName:Medium
+FullName:Rubik Medium
+MenuName:Rubik Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:G:\DropBox\Dropbox\indd work\Sandris Artemjevs\Codelex\Document fonts\Rubik-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:136332
+FileModTime:1437508800
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik Medium
+NameArray:0,Win,16,Rubik
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Rubik-Regular
+FamilyName:Rubik
+StyleName:Regular
+FullName:Rubik Regular
+MenuName:Rubik
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:G:\DropBox\Dropbox\indd work\Sandris Artemjevs\Codelex\Document fonts\Rubik-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:133376
+FileModTime:1437508800
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Rubik
+%EndFont
+
