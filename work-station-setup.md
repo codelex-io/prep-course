@@ -34,6 +34,8 @@ Simply execute these two commands:
  - `npm install -g ts-node`
  - `npm install -g typescript` 
 
+On Mac / Linux you may get following error - `Error: EACCES: permission denied error`, which means that you cannot install package globally using `-g` flag. To install package globally add `sudo` at the beginning of your command, so that `npm install -g ts-node` becomes `sudo npm install -g ts-node`.
+
 ### Verify
 
  - check node version: `node -v`
