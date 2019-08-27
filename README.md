@@ -54,3 +54,4 @@ Presentations can be found [here](https://codelex.io/p/prep-course-presentations
 ## Resources
 
  - [JavaScript documentation @mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index)
+ - [TypeScript Playground @typescriptlang.org](http://www.typescriptlang.org/play/)
