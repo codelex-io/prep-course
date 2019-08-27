@@ -30,12 +30,6 @@ Steps are as follows:
  - clone the project: `git clone https://github.com/codelex-io/prep-course.git`
  - open repository as folder in Visual Studio Code
 
-## Exercises
-
-### [Warm Up](./exercises/00-warm-up)
-
-### [Easy](./exercises/01-easy)
-
 ## Update Repository
 
 This repository may be updated, which means you may have outdated version locally.
@@ -43,3 +37,20 @@ This repository may be updated, which means you may have outdated version locall
 Open terminal, navigate to the project directory and execute this command: `git pull`
 
 ![git pull](./assets/git-pull.gif)
+
+## Presentations
+
+Presentations can be found [here](https://codelex.io/p/prep-course-presentations) 
+
+ - use *esc*/*o* to show an overview 
+ - use *m* to toggle side menu
+
+## Exercises
+
+### [Warm Up](./exercises/00-warm-up)
+
+### [Easy](./exercises/01-easy)
+
+## Resources
+
+ - [JavaScript documentation @mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index)
