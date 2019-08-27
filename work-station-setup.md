@@ -40,7 +40,7 @@ On Mac / Linux you may get following error - `Error: EACCES: permission denied e
 
  - check node version: `node -v`
  - check npm version: `npm -v`
- - execute code with ts-node: `ts-node -e 'console.log("Hello, world!")'`
+ - execute code with ts-node: `ts-node -e "console.log('Hello, World!')"`
 
 ## Git
 
