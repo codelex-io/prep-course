@@ -7,9 +7,9 @@ goThroughNumbers(3, 7);
 
     > 3 - odd
     > 4 - even
-    > 5 - even
+    > 5 - odd
     > 6 - even
-    > 7 - even
+    > 7 - odd
 
 */
 
