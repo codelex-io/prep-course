@@ -1,0 +1,94 @@
+* {
+    user-select: none
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#board {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #231f20;
+    color: #62c559;
+    border: 6px solid #62c559;
+    border-radius: 10px;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.box {
+    border: 6px solid #62c559;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #62c559;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button:active, .button:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+}
+
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #e7e7e7;
+}
+
+.button-hoverable span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-hoverable span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button-hoverable:hover span {
+    padding-right: 25px;
+}
+
+.button-hoverable:hover span:after {
+    opacity: 1;
+    right: 0;
+}
