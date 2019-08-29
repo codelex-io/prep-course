@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run compile && cross-env NODE_ENV=test jest",
+    "test": "jest --env=node --colors test --watch",
     "compile": "npm run compile:ts",
     "compile:ts": "tsc --project tsconfig.json",
     "prettier": "prettier --write src/**/*.ts"
