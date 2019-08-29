@@ -5,8 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --env=node --colors test --watch",
-    "compile": "npm run compile:ts",
-    "compile:ts": "tsc --project tsconfig.json",
     "prettier": "prettier --write src/**/*.ts"
   },
   "author": "",
