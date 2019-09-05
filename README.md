@@ -51,6 +51,10 @@ Presentations can be found [here](https://codelex.io/p/prep-course-presentations
 
 ### [Easy](./exercises/01-easy)
 
+### [Mini Projects](./exercises/02-mini-projects)
+
+## [Further Steps](./further-steps)
+
 ## Resources
 
  - [JavaScript documentation @mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index)
