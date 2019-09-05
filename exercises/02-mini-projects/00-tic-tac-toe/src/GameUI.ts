@@ -10,7 +10,10 @@ const info = document.getElementById("info");
 const button = document.getElementById("play-button");
 const board = document.getElementById("board");
 
-button.addEventListener("click", game.restart);
+button.addEventListener("click", () => {
+  game.restart();
+  draw(game);
+});
 
 const draw = (game: Game) => {
   board.innerHTML = "";
