@@ -29,9 +29,9 @@ Steps are as follows:
  - clone the project: `git clone https://github.com/codelex-io/prep-course.git`
  - open repository as folder in Visual Studio Code
 
-### Star This Repository
+### ⭐ Star This Repository ⭐
 
-When you have created a profile in [@github.com](http://github.com), leave a star ⭐.
+When you have created a profile in [@github.com](http://github.com), leave a star.
 
 ![Star](./assets/star.gif)
 
