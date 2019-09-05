@@ -49,7 +49,13 @@ For that reason, create an account [@codingame.com](https://www.codingame.com). 
 
 From the experience at groups, our recommendation is - five [clash of code](https://www.codingame.com/multiplayer/clashofcode) per day. But feel free to try other stuff there too.
 
-If you want to compete with other potentional CODELEX students, type `/clash` in our slack channel and it will create a private clash of code.
+Even if you are unable to solve the challenge - save it, and solve it step by step at your pace.
+
+### Compete with other students
+
+If you want to compete with other potentional CODELEX students, type `/clash` in our slack channel and it will create a private clash of code. Refer to detailed description of [CodinGame SlackBot](https://www.codingame.com/help/codingame-slackbot) to see all the available commands.
+
+### Alternative
 
 As an alternative, continue to solve challenges [@hackerrank.com](https://www.hackerrank.com).
 
