@@ -8,7 +8,6 @@ Carefully execute all of the steps mentioned in [Work Station Setup](./work-stat
 
 We assume that you have already did some coding [@codecademy.com](https://www.codecademy.com), but to better understand what we are going to do - take a look at these free resources:
 
- - [TypeScript in 5 minutes @typescriptlang.org](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
  - [TypeScript fundamentals @udemy.com](https://www.udemy.com/course/typescript-fundamentals)
  - [TypeScript handbook @typescriptlang.org](https://www.typescriptlang.org/docs/handbook/basic-types.html)
  - [get started with npm @youtube.com/npm](https://www.youtube.com/watch?v=x03fjb2VlGY)
@@ -29,6 +28,14 @@ Steps are as follows:
  - navigate to the folder you would like to have this project, you can use command `cd` to change current directory
  - clone the project: `git clone https://github.com/codelex-io/prep-course.git`
  - open repository as folder in Visual Studio Code
+
+### Star This Repository
+
+When you have created a profile in [@github.com](http://github.com), leave a star ⭐.
+
+![Star](./assets/star.gif)
+
+You will receive a notification when repository is updated and it may serve as a thank you also!
 
 ## Update Repository
 
