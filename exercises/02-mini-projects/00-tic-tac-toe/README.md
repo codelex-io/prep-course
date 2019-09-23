@@ -34,3 +34,14 @@ To have tests and application running at the same time, open two terminals.
 - a game has nine fields in a 3x3 grid
 - a game is over when all fields in a column are taken by a player
 - a player can take a field if it is not already taken
+
+## Blank Field
+!["Blank Field"](./assets/TTT_Blank.png)
+
+## Animation for Turn
+!["Palyer Turn"](./assets/TTT_Turn.gif)
+
+## Animation for Win
+!["Game Won"](./assets/TTT_Won.gif)
+
+

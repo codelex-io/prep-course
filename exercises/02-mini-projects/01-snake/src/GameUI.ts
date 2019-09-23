@@ -6,8 +6,14 @@ import {
 } from "./engine/Configuration";
 import { Game } from "./engine/Game";
 
-const CELL_SIZE = 20;
-const SCALE = 2.0;
+
+const bodyW = document.documentElement.clientWidth;
+const bodyH = document.documentElement.clientHeight;
+const CELL_SIZE = bodyW/CELLS_HORIZONTAL;
+const SCALE = 1;
+
+
+
 
 class GameUI {
   private canvas: HTMLCanvasElement;
@@ -44,13 +50,21 @@ class GameUI {
   }
 
   drawBrand(context: CanvasRenderingContext2D) {
-    const { width, height } = this.game.getConfiguration();
+    const { cellWidth, cellHeight } = game.getConfiguration();
+    const lineWidth = 1 * SCALE;
 
-    context.font = height / 2.5 + "px Roboto";
-    context.textBaseline = "middle";
-    context.textAlign = "center";
-    context.fillStyle = "rgba(255,255,255,0.75)";
-    context.fillText("CODELEX", width / 2, height / 2);
+    context.fillStyle = "rgba(255,255,255,0.5)";
+
+    const brand = game.getGrid().getBrand();
+    brand.forEach(cell =>
+      context.fillRect(
+        cellWidth * cell.x + lineWidth,
+        cellHeight * cell.y + lineWidth,
+        cellWidth - lineWidth * 2,
+        cellHeight - lineWidth * 2,
+      )
+     
+    );
   }
 
   drawScore(context: CanvasRenderingContext2D) {
@@ -95,8 +109,11 @@ class GameUI {
         cellWidth * cell.x + lineWidth,
         cellHeight * cell.y + lineWidth,
         cellWidth - lineWidth * 2,
-        cellHeight - lineWidth * 2
+        cellHeight - lineWidth * 2,
+        
+        
       )
+     
     );
   }
 

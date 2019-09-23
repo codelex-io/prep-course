@@ -21,3 +21,6 @@ To launch game open terminal and execute command: `npm start`, there will url, m
 - on each level there are apples placed in random positions on the field
 - snake dies if it bumps into the wall or itself
 - no keypress for move is missed
+
+![Blank State](./assets/Snake_full.jpg) 
+![Resized State](./assets/Snake_resized.jpg) 

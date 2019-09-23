@@ -1,4 +1,6 @@
 import { Cell } from "./Cell";
+import { brandText } from "./Brand";
+
 import { Configuration } from "./Configuration";
 
 export class Grid {
@@ -27,5 +29,9 @@ export class Grid {
       new Cell(37, 22),
       new Cell(39, 22)
     ];
+  }
+
+  getBrand(): Cell[] {
+    return brandText
   }
 }

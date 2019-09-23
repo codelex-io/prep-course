@@ -9,18 +9,19 @@ const game = new Game();
 const info = document.getElementById("info");
 const button = document.getElementById("play-button");
 const board = document.getElementById("board");
+const x = document.getElementById("X");
+const o = document.getElementById("O");
 
 button.addEventListener("click", () => {
   game.restart();
   draw(game);
 });
-
 const draw = (game: Game) => {
   board.innerHTML = "";
 
   game.getCells().forEach((cell, i) => {
     const div = document.createElement("div");
-    div.className = "box";
+    div.className = `box${i}`;
     if (cell !== "-") {
       div.innerText = cell;
     }
@@ -36,13 +37,21 @@ const draw = (game: Game) => {
     button.removeAttribute("disabled");
     button.className = "button button-hoverable";
   } else if (game.getWinner() !== "-") {
-    info.innerText = `Nice, ${game.getWinner()} won`;
+    info.className = "tracking-out-contract";
+    setInterval(function() {
+      info.innerText = `Nice, ${game.getWinner()} won!`;
+    }, 1000);
+    setInterval(function() {
+      info.className = "tracking-in-expand";
+    }, 1000);
+
     button.removeAttribute("disabled");
-    button.className = "button button-hoverable";
+    button.className = "btn striped-shadow white";
   } else {
-    info.innerText = `It's ${game.getTurn()} turn`;
     button.setAttribute("disabled", "true");
-    button.className = "button";
+    button.className = "btn striped-shadow white";
+    x.className = game.getTurn() === "X" ? "text-flicker-in-glow" : "";
+    o.className = game.getTurn() === "O" ? "text-flicker-in-glow" : "";
   }
 };
 

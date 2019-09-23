@@ -2,11 +2,11 @@ export type XO = "X" | "O" | "-";
 
 export class Game {
   getCells(): XO[] {
-    return ["X", "-", "-", "-", "-", "-", "-", "-", "-"];
+    return ["X", "X", "X", "-", "-", "-", "-", "-", "-"];
   }
 
   getTurn(): XO {
-    return "X";
+    return "-";
   }
 
   getWinner(): XO {
@@ -17,7 +17,7 @@ export class Game {
     return false;
   }
 
-  onClick(i: number): void {
+  onClick(i: number) {
     console.log(`cell ${i} clicked`);
   }
 

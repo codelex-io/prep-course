@@ -1,5 +1,5 @@
 export const CELLS_HORIZONTAL = 80;
-export const CELLS_VERTICAL = 40;
+export const CELLS_VERTICAL = 38;
 export const SPEED = 100;
 export const MAX_LEVEL = 10;
 
