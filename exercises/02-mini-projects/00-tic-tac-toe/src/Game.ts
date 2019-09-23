@@ -2,7 +2,7 @@ export type XO = "X" | "O" | "-";
 
 export class Game {
   getCells(): XO[] {
-    return ["X", "X", "X", "-", "-", "-", "-", "-", "-"];
+    return ["X", "-", "-", "-", "-", "-", "-", "-", "-"];
   }
 
   getTurn(): XO {
