@@ -23,4 +23,4 @@ To launch game open terminal and execute command: `npm start`, there will url, m
 - user can select multiple levels of the game
 - after the first opened cell time starts ticking
 - on browser refresh game state remains the same
-- game is lost if user clicks on the same cell
+- game is lost if user clicks on the bomb
