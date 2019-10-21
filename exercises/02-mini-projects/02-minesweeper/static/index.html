@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper 💣💣 | CODELEX</title>
+    <link rel="stylesheet" href="styles.scss">
+</head>
+
+<body>
+    <div id="game" style="display: none;">
+        <div id="game-container">
+            <div id="custom-level-dialog" class="window-wrapper-outer">
+                <div class="window-wrapper-inner">
+                    <div class="window-container">
+                        <div id="custom-title-bar" class="title-bar"></div>
+                        <div id="custom-dialog-content">
+                            <div id="minesweeper-custom-fields">
+                                <p>
+                                    <label>Height:</label>
+                                    <input type="text" id="minesweeper-custom-height" class="form-textbox">
+                                </p>
+                                <p>
+                                    <label>Width:</label>
+                                    <input type="text" id="minesweeper-custom-width" class="form-textbox">
+                                </p>
+                                <p>
+                                    <label>Mines:</label>
+                                    <input type="text" id="minesweeper-custom-mines" class="form-textbox">
+                                </p>
+                            </div>
+                            <div id="minesweeper-custom-buttons">
+                                <input type="button" value="OK" id="minesweeper-ok-btn" class="form-button" />
+                                <input type="button" value="Cancel" id="minesweeper-cancel-btn" class="form-button" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="high-score-dialog" class="window-wrapper-outer">
+                <div class="window-wrapper-inner">
+                    <div class="window-container">
+                        <div id="high-score-dialog-content">
+                            <h2>High score!</h2>
+                            </p>
+                            <p><label id="high-score-name-label">Name:</label><input type="text"
+                                    id="high-score-name-textbox" class="form-textbox" maxlength="20" /></p>
+                            <p id="submit-high-score-container"><input type="button" value="Submit High Score"
+                                    id="submit-high-score" class="form-button" /></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="window-wrapper-outer" class="window-wrapper-outer">
+                <div class="window-wrapper-inner">
+                    <div class="window-container">
+                        <div id="minesweeper-title-bar" class="title-bar"></div>
+                        <div id="menu-link-container"><a id="menu-link" href="#">Game</a></div>
+                        <div id="minesweeper-board-wrapper">
+                            <ul id="menu">
+                                <li id="menu-new">New</li>
+                                <li class="menu-divider"></li>
+                                <li id="menu-beginner" class="game-level checked">Beginner</li>
+                                <li id="menu-intermediate" class="game-level">Intermediate</li>
+                                <li id="menu-expert" class="game-level">Expert</li>
+                                <li class="menu-divider"></li>
+                                <li id="menu-marks" class="checked">Marks (?)</li>
+                            </ul>
+                            <div id="minesweeper-header-wrapper">
+                                <div id="minesweeper-header-container">
+                                    <div id="minesweeper-header">
+                                        <div id="mine-count" class="numbers">
+                                            <div id="mine-count-hundreds" class="t0"></div>
+                                            <div id="mine-count-tens" class="t1"></div>
+                                            <div id="mine-count-ones" class="t0"></div>
+                                        </div>
+                                        <div id="minesweeper-reset-button" class="face-smile"></div>
+                                        <div id="timer" class="numbers">
+                                            <div id="timer-hundreds" class="t0"></div>
+                                            <div id="timer-tens" class="t0"></div>
+                                            <div id="timer-ones" class="t0"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="minefield"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../src/GameUI.ts"></script>
+</body>
+
+</html>
