@@ -49,7 +49,7 @@ Open terminal, navigate to the project directory and execute this command: `git 
 
 Presentations can be found [here](https://codelex.io/p/prep-course-presentations) 
 
- - use *esc*/*o* to show an overview 
+ - use *esc* / *o* to show an overview 
  - use *m* to toggle side menu
 
 ## Exercises
