@@ -11,6 +11,6 @@ const books = [
   }
 ];
 
-const getTheTitles = () => {};
+const getTheTitles = (a) => {};
 
 console.log(getTheTitles(books)); // Expected output: ['4 hour work week', 'Tools of Titans']

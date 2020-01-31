@@ -8,14 +8,17 @@ export {};
  */
 
 // You are allowed to change only this function
-function convertToUSD() {}
+function convertToUSD(a):number {
+    const roundedNr = (Math.round(a * 100)/100)
+    return (roundedNr * 1.4)
+}
 
 const product = "You don't know JS";
 const price = 19.99;
 const priceInUSD = convertToUSD(price);
 
 console.log("Product: " + product);
-console.log("Price: $" + priceInUSD);
+console.log("Price: $" + priceInUSD.toFixed(2));
 
 /* Expected output:
 

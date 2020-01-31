@@ -8,8 +8,10 @@ export {};
  * Write a function that transforms numbers into the format £0.00
  */
 
-// You are allowed to change only this function
-function formatCurrency() {}
+function formatCurrency(a:number):string {
+  const roundedNr = (Math.round(a * 100)/100).toFixed(2)
+  return '$'+roundedNr;
+}
 
 function calculateSalesTax(price: number) {
   return price * 0.21;
@@ -31,4 +33,4 @@ console.log("Total: " + formatCurrency(price + salesTax));
     > Sales tax: £4.20
     > Total: £24.19
 
-*/
+*/ 
