@@ -1,6 +1,6 @@
 export {};
 
-function addNumbers(a b c) {
+function addNumbers(a:number, b:number, c:number) {
     return a + b + c;
 }
 
