@@ -18,7 +18,7 @@ This is how your repository must look.
 
 Since your repository is private - no one has access to it.
 
-Go to settings and add **sandris-** as your project collaborator.
+Go to settings and add **a-sandris** as your project collaborator.
 
 ![Collaborators](./assets/collaborators.png)
 
