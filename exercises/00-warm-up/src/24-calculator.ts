@@ -1,14 +1,14 @@
 export {};
 
-function add(a, b) {return a+b}
+function add() {}
 
-function subtract(d, c) {return d-c}
+function subtract() {}
 
-function sum(f) {return f.reduce((a, b) => a + b)}
+function sum() {}
 
-function multiply(s) {return s.reduce((a, b) => a * b)}
+function multiply() {}
 
-function power(k, l) {return k*l+k}
+function power() {}
 
 console.log(add(1, 2)); // Expected output: 3
 console.log(subtract(1, 2)); // Expected output: -1

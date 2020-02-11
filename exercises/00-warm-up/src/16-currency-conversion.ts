@@ -10,24 +10,18 @@ export {};
  */
 
 // You are allowed to change this function
-function convert(price:number, currencyExch:number ):number {
-    const roundedNr = (Math.round(price * 100)/100)
-    const fee = roundedNr*0.01
-    return (roundedNr * currencyExch+ fee)
-}
-
+function convertToUSD(price) {}
+// You are allowed to change this function
+function convertToBRL(price) {}
 
 const product = "You don't know JS";
 const price = 12.5;
-const price3 =33.3;
-const priceInUSD = convert(price, 1.4);
-const priceInBRL = convert(price, 5.6);
-const princeInEur = convert(price3, 1.2);
-
+const priceInUSD = convertToUSD(price);
+const priceInBRL = convertToBRL(price);
 
 console.log("Product: " + product);
-console.log("Price: $" + priceInUSD.toFixed(2));
-console.log("Price: R$" + priceInBRL.toFixed(2));
+console.log("Price: $" + priceInUSD);
+console.log("Price: R$" + priceInBRL);
 
 /* Expected output:
 

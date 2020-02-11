@@ -8,7 +8,7 @@ export {};
  */
 
 // You are allowed to change only this function
-function calculateSalesTax(a) {return a*21/100}
+function calculateSalesTax() {}
 
 const product = "You don't know JS";
 const price = 19.99;

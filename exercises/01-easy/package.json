@@ -12,6 +12,7 @@
   "dependencies": {
     "@types/jest": "^24.0.18",
     "cross-env": "^5.2.0",
+    "jest": "^24.9.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
@@ -31,8 +32,5 @@
       "json",
       "node"
     ]
-  },
-  "devDependencies": {
-    "jest": "^24.9.0"
   }
 }
