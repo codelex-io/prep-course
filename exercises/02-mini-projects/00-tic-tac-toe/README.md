@@ -1,12 +1,12 @@
 # Tic Tac Toe
 
-We are going to create Tic Tac Toe game. There is already UI prepared, so we must just make it work.
+We are going to create a Tic Tac Toe game. UI for the game is already prepared, we just have to make it work.
 
-But we are not some lame coders, who just write code. We want our code to work, so we are going to write using Test Driven Development (TDD) approach. Which means that we start with a failing test and only then write an implementation.
+But we are not some lame coders, who just write code. We want our code to work, so we are going to write it using Test Driven Development (TDD) approach. Which means that we start with a failing test and only then write an implementation.
 
 There is one test scenario already prepared.
 
-To understand what is TDD, check out [The Three Laws of TDD @youtube.com](https://www.youtube.com/watch?v=AoIfc5NwRks)
+To understand what TDD is, check out [The Three Laws of TDD @youtube.com](https://www.youtube.com/watch?v=AoIfc5NwRks)
 
 ## Getting Ready
 
@@ -18,7 +18,7 @@ Open terminal and execute command: `npm test`
 
 ## Running Application
 
-To launch game open terminal and execute command: `npm start`, there will url, most likely `http://localhost:1234` so just open that in your browser.
+To launch the game open terminal and execute command: `npm start`, at the end of the process description you will find a URL, most likely `http://localhost:1234` so just open that in your browser.
 
 To have tests and application running at the same time, open two terminals.
 
