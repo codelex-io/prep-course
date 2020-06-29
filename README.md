@@ -16,7 +16,7 @@ Create accounts, which we may be using during the course:
 
 ### Work Station Setup
 
-The quickest way to get started is by following [this link](https://gitpod.io/#https://github.com/codelex-io/prep-course). Use your [GitHub](http://github.com) account to log in, and you are done! No installations, no setup - just follow the instructions for each set of exercises listed at the bottom of this page and start coding!  
+:loudspeaker: **NEW!** The quickest way to get started is by following [this link](https://gitpod.io/#https://github.com/codelex-io/prep-course). Use your [GitHub](http://github.com) account to log in, and you are done! No installations, no setup - just follow the instructions for each set of exercises listed at the bottom of this page and start coding!  
 
 If, however, you would like to work locally on your computer instead of the cloud, you will need to set up your computer first.  
 
