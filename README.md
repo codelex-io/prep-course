@@ -49,13 +49,6 @@ Open terminal, navigate to the project directory and execute this command: `git 
 
 ![git pull](./assets/git-pull.gif)
 
-## Presentations
-
-Presentations can be found [here](https://codelex.io/p/prep-course-presentations) 
-
- - use *esc* / *o* to show an overview 
- - use *m* to toggle side menu
-
 ## Exercises
 
 ### [Warm Up](./exercises/00-warm-up)
