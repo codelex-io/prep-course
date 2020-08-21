@@ -1,0 +1,15 @@
+{
+  "name": "codelex-warm-up-exercises",
+  "version": "1.0.0",
+  "description": "Each file in this directory is a separate exercise, which you can execute with `ts-node`.",
+  "main": "index.js",
+  "scripts": {
+    "ts": "ts-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}

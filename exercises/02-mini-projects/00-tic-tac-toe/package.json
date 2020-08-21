@@ -1,0 +1,24 @@
+{
+  "name": "codelex-tic-tac-toe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./static/index.html",
+    "test": "jest --env=node --colors test --watch",
+    "prettier": "prettier --write './src/**/*.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "1.18.2",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
