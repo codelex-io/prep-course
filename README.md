@@ -1,63 +1,53 @@
 # PrepCourse | [CODELEX](https://codelex.io)
 
-## Prerequisites 
+## Prerequisites
 
-We assume that you have already done some coding [@codecademy.com](https://www.codecademy.com), but to better understand what we are going to do - take a look at these free resources:
+Most likely you will need a [Github account](https://github.com/join), Github is like a Dropbox for developers where code is shared.
 
- - [TypeScript fundamentals @udemy.com](https://www.udemy.com/course/typescript-fundamentals)
- - [TypeScript handbook @typescriptlang.org](https://www.typescriptlang.org/docs/handbook/basic-types.html)
- - [get started with npm @youtube.com/npm](https://www.youtube.com/watch?v=x03fjb2VlGY)
- - also there is a longer TypeScript tutorial [Intro to TypeScript @scrimba.com](https://scrimba.com/g/gintrototypescript)
+There are two options how to work on exercises, you must choose **ONE** of them.
 
-Create accounts, which we may be using during the course:
+### Workstation Setup Option #1
 
- - [@github.com](http://github.com)
- - [@codingame.com](http://codingame.com), choose **CODELEX** as your school
+Easiest way to get started is to use [gitpod.io](https://gitpod.io) it is basically a coding environment in the cloud, you **DO NOT** have to install anything locally.
 
-### Work Station Setup
+🚨 There is a 50 hour per month limit on Gitpod after which you need to start to pay, if you reach the limit you can either pay or just jump to `option #2` and set up everything locally.
 
-:loudspeaker: **NEW!** The quickest way to get started is by following [this link](https://gitpod.io/#https://github.com/codelex-io/prep-course). Use your [GitHub](http://github.com) account to log in, and you are done! No installations, no setup - just follow the instructions for each set of exercises listed at the bottom of this page and start coding!  Keep in mind that each time you click on that link, a new workspace will be created, so you need to do this only once. To return to your workspace and continue your work from where you left off, go to [gitpod.io/workspaces](https://gitpod.io/workspaces).
+Choose this option if:
 
-If, however, you would like to work locally on your computer instead of the cloud, you will need to set up your computer first.  
+- you don't want to install anything on your computer
+- your computer is old & slow
+- you are not a confident computer user (will mess something up when installing things)
 
-Carefully execute all of the steps mentioned in [Work Station Setup](./work-station-setup.md) guide. Make sure that you have everything installed and verified.
- 
-Everything we will need is in this repository (*repository* is like a project in Git), but to get it on your computer you must clone (make a local copy) it. To do that copy the link of this repository:
+### Workstation Setup Option #2
 
-![Repository URL](./assets/repository-url.gif)
+[➡️ Follow this link for detailed instructions](./work-station-setup.md)
 
-Steps are as follows:
+Choose this option if:
 
- - open Command Line
- - navigate to the folder you would like to have this project; you can use command `cd` to change the current directory
- - clone the project: `git clone https://github.com/codelex-io/prep-course.git`
- - open repository as a folder in Visual Studio Code
+- you are comfortable with installing things
 
-### ⭐ Star This Repository ⭐
-
-When you have created a profile in [@github.com](http://github.com), leave a star.
+## ⭐ Star This Repository ⭐
 
 ![Star](./assets/star.gif)
 
 You will receive a notification when this repository is updated, and it may serve as a thank you as well!
 
-## Update Repository
-
-This repository may be updated by us, which means you may have an outdated version locally.
-
-Open terminal, navigate to the project directory and execute this command: `git pull`
-
-![git pull](./assets/git-pull.gif)
-
 ## Exercises
 
-### [Warm Up](./exercises/00-warm-up)
+Exercises are grouped by days, but you can do them on your own pace.
 
-### [Easy](./exercises/01-easy)
+For each exercise carefully read the description before starting to work on it.
 
-### [Mini Projects](./exercises/02-mini-projects)
+- [Day #1](https://github.com/codelex-io/prep-course-day-one)
+- [Day #2](https://github.com/codelex-io/prep-course-day-two)
+- [Day #3](https://github.com/codelex-io/prep-course-day-three)
 
 ## Resources
 
- - [JavaScript documentation @mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index)
- - [TypeScript Playground @typescriptlang.org](http://www.typescriptlang.org/play/)
+We assume that you have already done some coding [@codecademy.com](https://www.codecademy.com) or somewhere else, but to better understand what we are going to do - take a look at these free resources:
+
+- [JavaScript documentation @mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Index)
+- [TypeScript Playground @typescriptlang.org](http://www.typescriptlang.org/play/)
+- [TypeScript fundamentals @udemy.com](https://www.udemy.com/course/typescript-fundamentals)
+- [TypeScript handbook @typescriptlang.org](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+- [Intro to TypeScript @scrimba.com](https://scrimba.com/g/gintrototypescript)
