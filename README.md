@@ -12,6 +12,8 @@ Easiest way to get started is to use [gitpod.io](https://gitpod.io) it is basica
 
 🚨 There is a 50 hour per month limit on Gitpod after which you need to start to pay, if you reach the limit you can either pay or just jump to `option #2` and set up everything locally.
 
+Each exercise will have a link for opening it on Gitpot.
+
 Choose this option if:
 
 - you don't want to install anything on your computer
