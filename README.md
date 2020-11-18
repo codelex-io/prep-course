@@ -6,7 +6,7 @@ Most likely you will need a [Github account](https://github.com/join), Github is
 
 There are two options how to work on exercises, you must choose **ONE** of them.
 
-### Workstation Setup Option #1
+### Option #1 -> Code directly in your browser
 
 Easiest way to get started is to use [gitpod.io](https://gitpod.io) it is basically a coding environment in the cloud, you **DO NOT** have to install anything locally.
 
@@ -18,7 +18,7 @@ Choose this option if:
 - your computer is old & slow
 - you are not a confident computer user (will mess something up when installing things)
 
-### Workstation Setup Option #2
+### Option #2 -> Install everything locally
 
 [➡️ Follow this link for detailed instructions](./work-station-setup.md)
 
