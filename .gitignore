@@ -1,6 +1,2 @@
 .idea
 *.iml
-node_modules
-.cache
-coverage
-dist
