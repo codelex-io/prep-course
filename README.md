@@ -19,5 +19,3 @@ For each exercise carefully read the description before starting to work on it.
 ## ⭐ Star This Repository ⭐
 
 ![Star](./assets/star.gif)
-
-You will receive a notification when this repository is updated, and it may serve as a thank you as well!
