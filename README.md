@@ -10,11 +10,11 @@ Exercises are grouped by days, but you can do them on your own pace.
 
 For each exercise carefully read the description before starting to work on it.
 
-### [➡️ Day #1](https://github.com/codelex-io/prep-course-day-one)
+### [➡️ Warm Up](https://github.com/codelex-io/prep-course-warm-up)
 
-### [➡️ Day #2](https://github.com/codelex-io/prep-course-day-two)
+### [➡️ Part Two](https://github.com/codelex-io/prep-course-part-two)
 
-### [➡️ Day #3](https://github.com/codelex-io/prep-course-day-three)
+### [➡️ Final Challenge](https://github.com/codelex-io/prep-course-final)
 
 ## ⭐ Star This Repository ⭐
 
